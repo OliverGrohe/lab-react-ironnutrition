@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class FoodDetails extends Component {
   render() {
-      const {name, quantitiy, calories, image} = this.props
+      const {name, calories, image} = this.props
     return (
       <article className="media">
         <div className="media-left">

@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import 'bulma/css/bulma.css';
 import FoodBox from './components/FoodBox'
-import FoodDetails from './components/FoodDetails'
+import AddNewFood from './components/AddNewFood'
 
 function App() {
   return (
     <div>
       <FoodBox />
+      <AddNewFood />
     </div>
   );
 }

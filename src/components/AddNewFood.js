@@ -6,11 +6,6 @@ import React, { Component } from 'react'
         showForm: false,
       }
 
-
-    handleShowForm = () => {
-        this.setState({ showForm: true })
-    }
-
     render() {
 
         const {onAdd} = this.props
